@@ -1,0 +1,375 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	text-align: center;
+	font-size: 120%;
+
+}
+h2{
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	text-align: center;
+	font-size: 90%;
+}
+p{
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+}
+.p2{
+	margin-left: 2.5%;
+	display: flex;
+	flex-direction: row;
+	width: 77.5%;
+	height: 10vh;
+}
+.p3{
+	margin-left: 2.5%;
+	display: flex;
+	flex-direction: row;
+	width: 77.5%;
+	height: 10vh;
+}
+.p4{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 20vh;
+}
+.c1{
+	width: 90%;
+	height: 10vh;
+	padding: 0 5% 0 5%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.c1-1{
+	width: 30%;
+	height: 10vh;
+}
+.image9{
+	width: 20%;
+	height: auto;
+}
+.c1-2-2{
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+.c1-2{
+	width: 2.5%;
+	height: 3vh;
+	display: flex;
+	margin-left: 2.5%;
+}
+.c1-3{
+	width: 2.5%;
+	height: 3vh;
+	display: flex;
+	margin-left: 2.5%;
+}
+.c1-4{
+	width: 2.5%;
+	height: 3vh;
+	display: flex;
+	margin-left: 2.5%;
+}
+.image12{
+	width: 100%;
+	height: 3vh;
+	margin-left: 2.5%;
+}
+.image11{
+	width: 100%;
+	height: 3vh;
+	margin-left: 2.5%;
+}
+.image10{
+	width: 100%;
+	height: 3vh;
+	margin-left: 2.5%;
+}
+.banner{
+	width: 100%;
+	height: 40vh;
+	background-color: green;
+}
+.h1{
+	width: 50%;
+	height: 3.3vh;
+	background-color: #F8F8FF;
+	margin: 2% 0 2% 0;
+}
+.meio{
+
+}
+.image{
+	width: 100%;
+	height: 40vh;
+}
+
+.conteudo{
+	margin: 1% 1% 1% 1%;
+	width: 98%;
+	height:150vh;
+	background-color: #F8F8FF;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+.selecoes{
+	width: 65%;
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 2% 0 2%;
+}
+.sFran{
+	width: 41%;
+	height: 30vh;
+	background-color: gray;
+	margin-right: 9%;
+}
+.image2{
+	width: 100%;
+	height: 30vh;
+	margin-right: 9%;
+}
+.sAus{
+	width: 41%;
+	height: 30vh;
+	background-color: gray;
+}
+.image3{
+	width: 100%;
+	height: 30vh;
+}
+.sDina{
+	width: 41%;
+	height: 30vh;
+	background-color: gray;
+	margin-right: 9%;
+	margin-top: 9%;
+}
+.image4{
+	width: 100%;
+	height: 30vh;
+	margin-right: 9%;
+}
+.sTuni{
+	margin-top: 9%;
+	width: 41%;
+	height: 30vh;
+	background-color: gray;
+}
+.image5{
+	width: 100%;
+	height: 30vh;
+}
+.publicidade{
+	width: 25%;
+	height: 95vh;
+	background-color: #F8F8FF;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 2% 0 2%;
+}
+.imgMaior{
+	width: 100%;
+	height: 40vh;
+	background-color: gray;
+	margin-bottom:10%;
+}
+.image8{
+	width: 100%;
+	height: 40vh;
+	margin-bottom:10%;
+}
+.imgMenor{
+	width: 20%;
+	height: 10vh;
+	background-color: gray;
+	display: flex;
+	flex-direction: row;
+}
+.image6{
+	width: 100%;
+	height: 10vh;
+}
+.imgMenor-2{
+	width: 20%;
+	height: 10vh;
+	background-color: gray;
+}
+.image7{
+	width: 100%;
+	height: 10vh;
+}
+@media (max-device-width: 700px) {
+	.c1-1{
+		display: flex;
+		align-items: center;
+	}
+	.c1-3{
+		display: none;
+	}
+	.c1-4{
+		display: none;
+	}
+	.conteudo{
+		margin: 1% 1% 1% 1%;
+		width: 98%;
+		height:360vh;
+		background-color: #F8F8FF;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		
+	}
+	.banner{
+		width: 100%;
+		height: 40vh;
+	}
+	
+	.selecoes{
+		width: 100%;
+		height: 200vh;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: 0 2% 0 2%;
+	}
+	.sFran{
+		background-color: transparent;
+		display: flex;
+		width: 90%;
+		height: 30vh;
+		/* float: right; */
+		margin-bottom: 9%;
+	}
+	.sAus{
+		background-color: transparent;
+		display: flex;
+		width: 90%;
+		height: 30vh;
+		margin-bottom: 9%;
+		margin-top: 9%;
+	}
+	.sDina{
+		background-color: transparent;
+		display: flex;
+		width: 90%;
+		height: 30vh;
+		margin-bottom: 9%;
+	}
+	.sTuni{
+		background-color: transparent;
+		display: flex;
+		width: 90%;
+		height: 30vh;
+	}
+	.image2{
+		width: 44%;
+	    height: 30vh;
+		margin-right: 0;
+	}
+	.image3{
+		width: 44%;
+		height: 30vh;
+	}
+	.image4{
+		width: 44%;
+		height: 30vh;
+		margin-right: 0;
+	}
+	.image5{
+		width: 44%;
+		height: 30vh;
+		margin-right: 0;
+	}
+	.texto{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 49%;
+		margin: 0 0 0 3%;
+		width: 50% height:30vh;
+		font-size: 25px;
+	}
+	.publicidade{
+		width: 25%;
+		height: 95vh;
+		background-color: #F8F8FF;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: 0 2% 0 2%;
+
+	}
+	.imgMaior{
+		width: 380%;
+		height: 40vh;
+		background-color: gray;
+		margin-bottom:10%;
+	}
+	.image8{
+		width: 100%;
+		height: 40vh;
+		margin-bottom:5%;
+	}
+	.imgMenor{
+		width: 40%;
+		height: 10vh;
+		background-color: gray;
+		display: flex;
+		flex-direction: row;
+		margin-bottom:20%;
+	}
+	.image6{
+		width: 100%;
+		height: 10vh;
+	}
+	.imgMenor-2{
+		width: 40%;
+		height: 10vh;
+		background-color: gray;
+	}
+	.image7{
+		width: 100%;
+		height: 10vh;
+	}
+	.p2{
+		margin-left: 50%;
+		margin-top: -50%;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 10vh;
+		font-size: 20px;
+	}
+	.p3{
+		margin-left: 50%;
+		margin-top: -33%;
+		display: flex;
+		flex-direction: row;
+		width: 150%;
+		height: 10vh;
+		font-size: 20px;
+	}
+	.p4{
+		display: flex;
+		flex-direction: row;
+		width: 380%;
+		height: 10vh;
+		font-size: 20px;
+	}
+}
